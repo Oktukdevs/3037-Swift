@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.okktyukproj.app
       vars:
         BUNDLE_ID: "com.okktyukproj.app"
-        XCODE_WORKSPACE: "Balls Connect.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Balls Connect" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: "BallsConnect.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "BallsConnect" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6747352406
       xcode: latest
       cocoapods: default
