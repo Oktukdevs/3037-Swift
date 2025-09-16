@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724140EA2E79738A000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140E92E79738A000F0503 /* TextScreen.swift */; };
+		724140F02E79741A000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140EE2E79741A000F0503 /* PrivacyView.swift */; };
+		724140F72E797446000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 724140F12E797446000F0503 /* index.html */; };
+		724140F82E797446000F0503 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140F42E797446000F0503 /* WebViewCoordinator.swift */; };
+		724140F92E797446000F0503 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140F32E797446000F0503 /* WebViewContainer.swift */; };
+		724140FA2E797446000F0503 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140F52E797446000F0503 /* WebSheetViewController.swift */; };
+		724140FB2E797446000F0503 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140F22E797446000F0503 /* UserAgentBuilder.swift */; };
+		724140FE2E797466000F0503 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140FD2E797466000F0503 /* AppEntryPoint.swift */; };
+		724140FF2E797466000F0503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140FC2E797466000F0503 /* AppDelegate.swift */; };
 		72CC1B1D2E6F2B05006052B5 /* BallsConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC1B1A2E6F2B05006052B5 /* BallsConnectApp.swift */; };
 		72CC1B1F2E6F2B05006052B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CC1B182E6F2B05006052B5 /* Assets.xcassets */; };
 		72CC1B242E6F2BC9006052B5 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC1B212E6F2BC9006052B5 /* Color+Extensions.swift */; };
@@ -19,6 +28,15 @@
 
 /* Begin PBXFileReference section */
 		4EDC09F5A85653508E0D58D9 /* Pods-BallsConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallsConnect.release.xcconfig"; path = "Target Support Files/Pods-BallsConnect/Pods-BallsConnect.release.xcconfig"; sourceTree = "<group>"; };
+		724140E92E79738A000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		724140EE2E79741A000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		724140F12E797446000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		724140F22E797446000F0503 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		724140F32E797446000F0503 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		724140F42E797446000F0503 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		724140F52E797446000F0503 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		724140FC2E797466000F0503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724140FD2E797466000F0503 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
 		72CC1B092E6F2AF9006052B5 /* BallsConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallsConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CC1B182E6F2B05006052B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CC1B1A2E6F2B05006052B5 /* BallsConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsConnectApp.swift; sourceTree = "<group>"; };
@@ -44,6 +62,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724140EF2E79741A000F0503 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				724140EE2E79741A000F0503 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		724140F62E797446000F0503 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				724140F12E797446000F0503 /* index.html */,
+				724140F22E797446000F0503 /* UserAgentBuilder.swift */,
+				724140F32E797446000F0503 /* WebViewContainer.swift */,
+				724140F42E797446000F0503 /* WebViewCoordinator.swift */,
+				724140F52E797446000F0503 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		72CC1B002E6F2AF9006052B5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +115,7 @@
 		72CC1B232E6F2BC9006052B5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				724140E92E79738A000F0503 /* TextScreen.swift */,
 				72CC1B202E6F2BC9006052B5 /* View+Extensions.swift */,
 				72CC1B212E6F2BC9006052B5 /* Color+Extensions.swift */,
 				72CC1B222E6F2BC9006052B5 /* ShapeStyle+Extensions.swift */,
@@ -103,6 +142,8 @@
 		72CC1B2B2E6F2BD8006052B5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				724140F62E797446000F0503 /* Web */,
+				724140EF2E79741A000F0503 /* PrivacyScreen */,
 				72CC1B282E6F2BD8006052B5 /* HomeWebScreen */,
 				72CC1B2A2E6F2BD8006052B5 /* LaunchScreen */,
 			);
@@ -112,6 +153,8 @@
 		72CC1B2E2E6F2BF5006052B5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				724140FC2E797466000F0503 /* AppDelegate.swift */,
+				724140FD2E797466000F0503 /* AppEntryPoint.swift */,
 				72CC1B1A2E6F2B05006052B5 /* BallsConnectApp.swift */,
 			);
 			path = App;
@@ -195,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CC1B1F2E6F2B05006052B5 /* Assets.xcassets in Resources */,
+				724140F72E797446000F0503 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,10 +274,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724140FE2E797466000F0503 /* AppEntryPoint.swift in Sources */,
+				724140FF2E797466000F0503 /* AppDelegate.swift in Sources */,
 				72CC1B1D2E6F2B05006052B5 /* BallsConnectApp.swift in Sources */,
+				724140EA2E79738A000F0503 /* TextScreen.swift in Sources */,
 				72CC1B2C2E6F2BD8006052B5 /* BCHomeWebView.swift in Sources */,
 				72CC1B2D2E6F2BD8006052B5 /* BCLaunchView.swift in Sources */,
 				72CC1B242E6F2BC9006052B5 /* Color+Extensions.swift in Sources */,
+				724140F02E79741A000F0503 /* PrivacyView.swift in Sources */,
+				724140F82E797446000F0503 /* WebViewCoordinator.swift in Sources */,
+				724140F92E797446000F0503 /* WebViewContainer.swift in Sources */,
+				724140FA2E797446000F0503 /* WebSheetViewController.swift in Sources */,
+				724140FB2E797446000F0503 /* UserAgentBuilder.swift in Sources */,
 				72CC1B252E6F2BC9006052B5 /* ShapeStyle+Extensions.swift in Sources */,
 				72CC1B262E6F2BC9006052B5 /* View+Extensions.swift in Sources */,
 			);
