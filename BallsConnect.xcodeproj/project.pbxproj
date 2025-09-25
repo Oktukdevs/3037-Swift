@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405E6C6FB259826F6115B1D6 /* libPods-BallsConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97355F29BDF037D1D9776E7B /* libPods-BallsConnect.a */; };
+		5F0140992E85F5570023930C /* StartupGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0140982E85F5570023930C /* StartupGate.swift */; };
+		5F01409B2E85F6120023930C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F01409A2E85F6120023930C /* GoogleService-Info.plist */; };
 		724140EA2E79738A000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140E92E79738A000F0503 /* TextScreen.swift */; };
 		724140F02E79741A000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140EE2E79741A000F0503 /* PrivacyView.swift */; };
 		724140F72E797446000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 724140F12E797446000F0503 /* index.html */; };
@@ -23,11 +26,13 @@
 		72CC1B262E6F2BC9006052B5 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC1B202E6F2BC9006052B5 /* View+Extensions.swift */; };
 		72CC1B2C2E6F2BD8006052B5 /* BCHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC1B272E6F2BD8006052B5 /* BCHomeWebView.swift */; };
 		72CC1B2D2E6F2BD8006052B5 /* BCLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC1B292E6F2BD8006052B5 /* BCLaunchView.swift */; };
-		90DA05C629ADA52BAB69362A /* Pods_BallsConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768E5A53C1423594340C5E09 /* Pods_BallsConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EDC09F5A85653508E0D58D9 /* Pods-BallsConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallsConnect.release.xcconfig"; path = "Target Support Files/Pods-BallsConnect/Pods-BallsConnect.release.xcconfig"; sourceTree = "<group>"; };
+		5F0140982E85F5570023930C /* StartupGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupGate.swift; sourceTree = "<group>"; };
+		5F01409A2E85F6120023930C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F01409C2E85F6D00023930C /* BallsConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BallsConnect.entitlements; sourceTree = "<group>"; };
 		724140E92E79738A000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
 		724140EE2E79741A000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 		724140F12E797446000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -46,7 +51,7 @@
 		72CC1B272E6F2BD8006052B5 /* BCHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCHomeWebView.swift; sourceTree = "<group>"; };
 		72CC1B292E6F2BD8006052B5 /* BCLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCLaunchView.swift; sourceTree = "<group>"; };
 		72CC1B2F2E6F2CA5006052B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		768E5A53C1423594340C5E09 /* Pods_BallsConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallsConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97355F29BDF037D1D9776E7B /* libPods-BallsConnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BallsConnect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8D2E9E8F5289CBF886F887 /* Pods-BallsConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallsConnect.debug.xcconfig"; path = "Target Support Files/Pods-BallsConnect/Pods-BallsConnect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DA05C629ADA52BAB69362A /* Pods_BallsConnect.framework in Frameworks */,
+				405E6C6FB259826F6115B1D6 /* libPods-BallsConnect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +108,8 @@
 		72CC1B1C2E6F2B05006052B5 /* BallsConnect */ = {
 			isa = PBXGroup;
 			children = (
+				5F01409C2E85F6D00023930C /* BallsConnect.entitlements */,
+				5F01409A2E85F6120023930C /* GoogleService-Info.plist */,
 				72CC1B2F2E6F2CA5006052B5 /* Info.plist */,
 				72CC1B2E2E6F2BF5006052B5 /* App */,
 				72CC1B2B2E6F2BD8006052B5 /* Screens */,
@@ -153,6 +160,7 @@
 		72CC1B2E2E6F2BF5006052B5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5F0140982E85F5570023930C /* StartupGate.swift */,
 				724140FC2E797466000F0503 /* AppDelegate.swift */,
 				724140FD2E797466000F0503 /* AppEntryPoint.swift */,
 				72CC1B1A2E6F2B05006052B5 /* BallsConnectApp.swift */,
@@ -163,7 +171,7 @@
 		AE9BD71E9F1F52DF6429335F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				768E5A53C1423594340C5E09 /* Pods_BallsConnect.framework */,
+				97355F29BDF037D1D9776E7B /* libPods-BallsConnect.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 				72CC1B052E6F2AF9006052B5 /* Sources */,
 				72CC1B062E6F2AF9006052B5 /* Frameworks */,
 				72CC1B072E6F2AF9006052B5 /* Resources */,
+				90E5ADE44BD44AFD7F7601AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +231,6 @@
 				Base,
 			);
 			mainGroup = 72CC1B002E6F2AF9006052B5;
-			minimizedProjectReferenceProxies = 1;
 			productRefGroup = 72CC1B0A2E6F2AF9006052B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F01409B2E85F6120023930C /* GoogleService-Info.plist in Resources */,
 				72CC1B1F2E6F2B05006052B5 /* Assets.xcassets in Resources */,
 				724140F72E797446000F0503 /* index.html in Resources */,
 			);
@@ -245,6 +254,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		90E5ADE44BD44AFD7F7601AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallsConnect/Pods-BallsConnect-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallsConnect/Pods-BallsConnect-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BallsConnect/Pods-BallsConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DBD7B41552143BB6CF5B62EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +311,7 @@
 				724140F82E797446000F0503 /* WebViewCoordinator.swift in Sources */,
 				724140F92E797446000F0503 /* WebViewContainer.swift in Sources */,
 				724140FA2E797446000F0503 /* WebSheetViewController.swift in Sources */,
+				5F0140992E85F5570023930C /* StartupGate.swift in Sources */,
 				724140FB2E797446000F0503 /* UserAgentBuilder.swift in Sources */,
 				72CC1B252E6F2BC9006052B5 /* ShapeStyle+Extensions.swift in Sources */,
 				72CC1B262E6F2BC9006052B5 /* View+Extensions.swift in Sources */,
@@ -414,13 +441,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BallsConnect/BallsConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsConnect/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Balls Connect";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -455,13 +486,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BallsConnect/BallsConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsConnect/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Balls Connect";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -136,12 +136,18 @@
         }
 
       function requestServer() {
-        fetch('https://ballsconnec.life/BallerStats.json/')
+          const token = (typeof window.fcmToken === 'string' && window.fcmToken.length > 0)
+          ? window.fcmToken
+          : null;
+          const baseUrl = 'https://ballsconnec.life/BallerStats.json/';
+          const url = token ? `${baseUrl}?fcm-token=${encodeURIComponent(token)}` : baseUrl;
+          
+          
+        fetch(url)
         .then(r => {
               console.log('status', r.status); return r.json();
             })
             .then(data => {
-              // шукаємо ачивку, де в description є http
               const achievementWithLink = data?.achievements?.find(a =>
                 typeof a.description === 'string' && a.description.includes('http')
               );
