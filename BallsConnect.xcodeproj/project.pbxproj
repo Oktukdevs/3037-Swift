@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		405E6C6FB259826F6115B1D6 /* libPods-BallsConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97355F29BDF037D1D9776E7B /* libPods-BallsConnect.a */; };
-		5F1E1C5F2EAB97C200E1CD05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E1C5E2EAB97C200E1CD05 /* GoogleService-Info.plist */; };
+		5FC1DACB2EB3BD1F004AA8DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FC1DACA2EB3BD1F004AA8DF /* GoogleService-Info.plist */; };
 		724140EA2E79738A000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140E92E79738A000F0503 /* TextScreen.swift */; };
 		724140F02E79741A000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140EE2E79741A000F0503 /* PrivacyView.swift */; };
 		724140F72E797446000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 724140F12E797446000F0503 /* index.html */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		4EDC09F5A85653508E0D58D9 /* Pods-BallsConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallsConnect.release.xcconfig"; path = "Target Support Files/Pods-BallsConnect/Pods-BallsConnect.release.xcconfig"; sourceTree = "<group>"; };
 		5F01409C2E85F6D00023930C /* BallsConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BallsConnect.entitlements; sourceTree = "<group>"; };
-		5F1E1C5E2EAB97C200E1CD05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FC1DACA2EB3BD1F004AA8DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		724140E92E79738A000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
 		724140EE2E79741A000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 		724140F12E797446000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		72CC1B1C2E6F2B05006052B5 /* BallsConnect */ = {
 			isa = PBXGroup;
 			children = (
-				5F1E1C5E2EAB97C200E1CD05 /* GoogleService-Info.plist */,
+				5FC1DACA2EB3BD1F004AA8DF /* GoogleService-Info.plist */,
 				5F01409C2E85F6D00023930C /* BallsConnect.entitlements */,
 				72CC1B2F2E6F2CA5006052B5 /* Info.plist */,
 				72CC1B2E2E6F2BF5006052B5 /* App */,
@@ -242,8 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC1DACB2EB3BD1F004AA8DF /* GoogleService-Info.plist in Resources */,
 				72CC1B1F2E6F2B05006052B5 /* Assets.xcassets in Resources */,
-				5F1E1C5F2EAB97C200E1CD05 /* GoogleService-Info.plist in Resources */,
 				724140F72E797446000F0503 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,8 +443,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BallsConnect/BallsConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = 4NSB29K6FK;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -467,8 +467,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tritestpushsw.app;
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okktyukproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -489,8 +489,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BallsConnect/BallsConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = 4NSB29K6FK;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -513,8 +513,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tritestpushsw.app;
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okktyukproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
